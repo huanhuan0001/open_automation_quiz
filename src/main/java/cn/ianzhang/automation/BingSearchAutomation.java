@@ -44,10 +44,10 @@ public class BingSearchAutomation {
             Thread.sleep(7000);
 
             // 获取第二页搜索结果
-           /* WebElement nextPageButton = wait.until(
+            WebElement nextPageButton = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@title='下一页']")));
             nextPageButton.click();
-            Thread.sleep(10000);*/
+            Thread.sleep(10000);
 
             // 打印第二页搜索结果的标题和链接，并统计顶级域名出现的次数
             System.out.println("结果列表");
